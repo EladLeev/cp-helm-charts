@@ -62,3 +62,11 @@ Default GroupId to Release Name but allow it to be overridden
 {{- .Release.Name -}}
 {{- end -}}
 {{- end -}}
+
+{{/*
+Create custom serviceAccount name if set
+*/}}
+{{- define "cp-schema-registry.serviceAccountName" -}}
+{{- if .Values.serviceAccountName -}}
+{{- .Values.serviceAccountName -}}
+{{- end -}}
