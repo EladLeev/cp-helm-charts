@@ -57,6 +57,9 @@ resources: {}
 ## Custom pod annotations
 podAnnotations: {}
 
+## Create and use custom serviceAccount
+# serviceAccountName: myCustomServiceAccount
+
 ## Node labels for pod assignment
 ## Ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
 nodeSelector: {}
