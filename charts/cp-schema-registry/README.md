@@ -139,6 +139,12 @@ The configuration parameters in this section control the resources requested and
 | --------- | ----------- | ------- |
 | `podAnnotations` | Map of custom annotations to attach to the pod spec. | `{}` |
 
+### ServiceAccount
+
+| Parameter | Description | Default |
+| --------- | ----------- | ------- |
+| `serviceAccountName` | Specifies whether a custom `userAccount` should be created. | `false` => `default` |
+
 ### Security Context
 
 | Parameter | Description | Default |
